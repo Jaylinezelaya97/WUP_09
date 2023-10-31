@@ -53,7 +53,6 @@ best2Perch = lm(Weight ~ Height + Width, data=perch )
 summary(best2Perch)
 ```
 
-P value is .00000000000000022
 
 
 ### Best 2 variable equation
@@ -121,5 +120,5 @@ Weight = -319.118 + 8.278  *Length3 + 72.300 * Width
 
 ## Final Summary Statements
 
-
-
+PERCH THE BEST 2 MODELS ARE WEIGHT HEIGHT AND WIDTH THE BEST 2 VARIABLE EQUATION IS Weight = -536 + 74.77*Height + 69.62* Width, PIKE THE BEST 2 MODELS ARE WEIGHT LENGTH1 AND LEGTH 3 THE BEST 2 VARIABLE EQUATION IS Weight = -1675.79 + -105.64 *Length1 + 145.25* Length3, ROACH THE BEST 2 MODELS ARE WEIGHT LENGTH3 AND WIDTH THE BEST 2 VARIABLE EQUATION IS
+Weight = -319.118 + 8.278  *Length3 + 72.300 * Width
