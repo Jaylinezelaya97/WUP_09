@@ -80,13 +80,13 @@ summary(modelPike)
 ### Best Two regressor model
 
 ```{r}
-best2Pike = lm(Weight ~ Height + Width, data=pike )
+best2Pike = lm(Weight ~ Length1 + Length3, data=pike )
 summary(best2Pike)
 ```
 
 ### Best 2 variable equation
 
-Weight = -1423.97 + 214.82 *Height + 95.47* Width
+Weight = -1675.79 + -105.64 *Length1 + 145.25* Length3
 
 
 
@@ -110,13 +110,16 @@ summary(modelRoach)
 ### Best Two regressor model
 
 ```{r}
-best2Roach = lm(Weight ~ Height + Width, data=roach )
+best2Roach = lm(Weight ~ Length3 + Width, data=roach )
 summary(best2Roach)
 ```
 
 
 ### Best 2 variable equation
 
-Weight = - +  *Height + * Width
+Weight = -319.118 + 8.278  *Length3 + 72.300 * Width
 
 ## Final Summary Statements
+
+
+
